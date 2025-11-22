@@ -1,0 +1,31 @@
+version: "1.0.0"
+description: "SinricPro IoT platform integration for ESP-IDF - Control ESP32 devices with Alexa and Google Home and more"
+url: "https://github.com/kakopappa/sinricpro-esp-idf.git"
+documentation: "https://help.sinric.pro"
+repository: "https://github.com/kakopappa/sinricpro-esp-idf.git"
+issues: "https://github.com/kakopappa/sinricpro-esp-idf.git/issues"
+
+dependencies:
+  idf:
+    version: ">=4.4"
+  espressif/esp_websocket_client:
+    version: "^1.2.0"
+  espressif/cjson:
+    version: "*"
+
+tags:
+  - iot
+  - alexa
+  - google-home
+  - smart-home
+  - voice-control
+  - websocket
+  - esp32
+
+maintainers:
+  - "SinricPro Team <support@sinric.pro>"
+
+license: "CC-BY-SA-4.0"
+
+examples:
+  - path: "examples/switch"
