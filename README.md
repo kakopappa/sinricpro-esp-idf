@@ -43,8 +43,7 @@ Add to your project's `idf_component.yml`:
 
 ```yaml
 dependencies:
-  sinricpro:
-    version: "^1.0.0"
+  kakopappa/sinricpro: "^1.0.0"
 ```
 
 ### Method 2: Manual Installation
