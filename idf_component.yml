@@ -1,9 +1,9 @@
-version: "1.0.0"
-description: "SinricPro IoT platform integration for ESP-IDF - Control ESP32 devices with Alexa and Google Home and more"
-url: "https://github.com/kakopappa/sinricpro-esp-idf.git"
+version: "1.0.1"
+description: "SinricPro IoT platform integration for ESP-IDF - Control ESP32 devices with Alexa and Google Home"
+url: "https://github.com/kakopappa/sinricpro-esp-idf"
 documentation: "https://help.sinric.pro"
-repository: "https://github.com/kakopappa/sinricpro-esp-idf.git"
-issues: "https://github.com/kakopappa/sinricpro-esp-idf.git/issues"
+repository: "https://github.com/kakopappa/sinricpro-esp-idf"
+issues: "https://github.com/kakopappa/sinricpro-esp-idf/issues"
 
 dependencies:
   idf:

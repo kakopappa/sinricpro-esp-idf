@@ -3,7 +3,7 @@
  * Licensed under Creative Commons Attribution-Share Alike (CC BY-SA)
  *
  * This file is part of the SinricPro ESP-IDF component
- * (https://github.com/kakopappa/sinricpro-esp-idf.git)
+ * (https://github.com/kakopappa/sinricpro-esp-idf)
  */
 
 #ifndef SINRICPRO_WEBSOCKET_H

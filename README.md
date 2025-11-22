@@ -43,8 +43,7 @@ Add to your project's `idf_component.yml`:
 
 ```yaml
 dependencies:
-  sinricpro:
-    version: "^1.0.0"
+  kakopappa/sinricpro: "^1.0.0"
 ```
 
 ### Method 2: Manual Installation
@@ -135,7 +134,7 @@ See [LICENSE](LICENSE) file for details.
 
 - **Documentation**: [help.sinric.pro](https://help.sinric.pro)
 - **Community**: [Discord](https://discord.gg/W5299EgB59)
-- **Issues**: [GitHub Issues](https://github.com/kakopappa/sinricpro-esp-idf.git/issues)
+- **Issues**: [GitHub Issues](https://github.com/kakopappa/sinricpro-esp-idf/issues)
 - **Email**: support@sinric.pro
 
 ## Related Projects

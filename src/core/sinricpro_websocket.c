@@ -3,7 +3,7 @@
  * Licensed under Creative Commons Attribution-Share Alike (CC BY-SA)
  *
  * This file is part of the SinricPro ESP-IDF component
- * (https://github.com/kakopappa/sinricpro-esp-idf.git)
+ * (https://github.com/kakopappa/sinricpro-esp-idf)
  */
 
 #include "sinricpro_websocket.h"
@@ -153,8 +153,8 @@ esp_err_t sinricpro_ws_init(const char *server_url,
         "restoredevicestates: false\r\n"
         "ip: %s\r\n"
         "mac: %s\r\n"
-        "platform: esp32\r\n"
-        "SDKVersion: 1.0.0\r\n",
+        "platform: esp-idf\r\n"
+        "SDKVersion: 1.0.1\r\n",
         app_key, device_ids, ip_str, mac_str);
 
     if (headers_len < 0 || headers == NULL) {
